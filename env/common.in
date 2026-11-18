@@ -1,2 +1,3 @@
-# Runtime dependencies and extras are defined in pyproject.toml.
-# Resolve with uv pip compile pyproject.toml --extra models --extra dev.
+# Resolve from the repository root. Keep the editable project out of the lock
+# with --no-emit-package human-vggt, then install it separately with --no-deps.
+-e .[models,dev]

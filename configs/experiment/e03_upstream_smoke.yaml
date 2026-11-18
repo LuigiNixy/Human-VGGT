@@ -1,0 +1,12 @@
+experiment: e03_upstream_smoke
+task: correspondence
+dataset: synthetic
+seed: 42
+num_views: 2
+device: cuda
+precision: fp32
+weights: ${HUMAN_VGGT_WEIGHTS}
+runs: ${HUMAN_VGGT_RUNS}
+sapiens: true
+feature_sites: [patch_embedding, aggregation_last]
+sapiens_layers: [2, 5, 8, 11]

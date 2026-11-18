@@ -1,0 +1,7 @@
+experiment: e00_synthetic
+task: baseline
+dataset: synthetic
+seed: 42
+num_views: 3
+device: cpu
+mock: true

@@ -1,0 +1,9 @@
+experiment: e03_correspondence_fixture
+task: correspondence
+dataset: synthetic
+seed: 42
+num_views: 3
+device: cpu
+mock: true
+samples_per_pair: 256
+occlusion_tolerance_m: 0.01

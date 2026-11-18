@@ -5,6 +5,7 @@
 /.python/
 /.venv/
 /.env
+/ENV.md
 /.env.*
 /configs/local/*.local.yaml
 __pycache__/

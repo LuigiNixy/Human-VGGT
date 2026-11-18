@@ -1,0 +1,7 @@
+id: ellipsoids
+renderer: ellipsoids-v1
+seed: 42
+units: meters
+depth: optical_axis_z
+camera: OpenCV_world_to_camera_integer_pixel_centers
+purpose: pipeline_fixture

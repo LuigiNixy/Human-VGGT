@@ -1,0 +1,10 @@
+experiment: e00_vggt
+task: baseline
+dataset: synthetic
+seed: 42
+num_views: 2
+device: cuda
+precision: fp32
+weights: ${HUMAN_VGGT_WEIGHTS}
+runs: ${HUMAN_VGGT_RUNS}
+feature_sites: [patch_embedding, aggregation_last]

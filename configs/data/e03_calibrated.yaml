@@ -1,0 +1,12 @@
+experiment: e03_calibrated
+task: correspondence
+dataset: calibrated
+rgb_dir: ${HUMAN_VGGT_DATA}
+weights: ${HUMAN_VGGT_WEIGHTS}
+runs: ${HUMAN_VGGT_RUNS}
+seed: 42
+num_views: 3
+device: cuda
+precision: fp32
+sapiens: true
+feature_sites: [patch_embedding, aggregation_last]
