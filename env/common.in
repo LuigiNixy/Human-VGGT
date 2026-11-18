@@ -1,0 +1,2 @@
+# Runtime dependencies and extras are defined in pyproject.toml.
+# Resolve with uv pip compile pyproject.toml --extra models --extra dev.
